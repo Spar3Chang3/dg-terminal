@@ -4,7 +4,9 @@
 It simulates a minimal command-line environment where players can log in as different users and uncover narrative clues through commands.
 
 🔗 **Demo:** https://sgterm-d2826.web.app/
+
 👤 **Username:** `demo`
+
 🔑 **Password:** `password`
 
 ---
@@ -36,7 +38,7 @@ All user content and commands are defined through simple JSON metadata and text/
 * **User login system**
 
   * per-user content and commands
-  * password masking
+  * password "masking"
 
 * **Extensible command system**
 
@@ -65,11 +67,11 @@ All user content and commands are defined through simple JSON metadata and text/
 User commands are defined in `meta.json`:
 
 ````json
-```{
+{
   "command": "email",
   "file": "email.txt",
   "function": "TEXT"
-}```
+}
 ````
 
 At runtime the terminal loads these definitions and dynamically registers commands for the logged-in user.
@@ -78,7 +80,7 @@ At runtime the terminal loads these definitions and dynamically registers comman
 
 ## Intended Use
 
-SGTerm was created as a **storytelling tool for Delta Green campaigns**, allowing GMs to reveal clues through a diegetic interface rather than traditional notes or PDFs.
+dg-terminal was created as a **storytelling tool for Delta Green campaigns**, allowing GMs to reveal clues through a diegetic interface rather than traditional notes or PDFs.
 
 Examples of use:
 
@@ -93,7 +95,8 @@ Examples of use:
 
 This project was created for tabletop use and campaign storytelling.
 Feel free to adapt or modify it for your own games.
+There is no direct license, it's not good enough to need one of those. All I ask is do not attempt to sell any product with code from this git
 
 ---
 
-**“The last thing an agent should trust is a terminal that greets them by name.”**
+**“The last thing an agent should trust is a terminal that greets them by name.”** - idk bro
