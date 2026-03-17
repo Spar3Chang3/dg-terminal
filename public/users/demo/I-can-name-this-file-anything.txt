@@ -5,7 +5,7 @@ This really isn't much, just a bit of HTML/CSS/JS, as is everything nowadays.
 If you find this neat enough to use for your own Delta Green / DND campaign,
 maybe give me a GitHub star? I'll always appreciate it.
 
-Also, since this literally just your browser, you can pretty much include anything you want here:
+Also, since this is literally just your browser, you can pretty much include anything you want here:
 
 Emojies? 🔥💪😎💯
 
