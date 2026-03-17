@@ -1,0 +1,33 @@
+[
+  {
+    "username": "demo",
+    "password": "password",
+    "properties": [
+      {
+        "command": "email",
+        "file": "email.txt",
+        "function": "TEXT"
+      },
+      {
+        "command": "embed",
+        "file": "embed.txt",
+        "function": "HTML"
+      },
+      {
+        "command": "neofetch",
+        "file": "neofetch.txt",
+        "function": "TEXT"
+      },
+      {
+        "command": "meme",
+        "file": "meme.jpg",
+        "function": "IMG"
+      },
+      {
+        "command": "testme",
+        "file": "I-can-name-this-file-anything.txt",
+        "function": "TEXT"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+Hi! Thanks for checking out the demo site.
+
+This really isn't much, just a bit of HTML/CSS/JS, as is everything nowadays.
+
+If you find this neat enough to use for your own Delta Green / DND campaign,
+maybe give me a GitHub star? I'll always appreciate it.
+
+Also, since this literally just your browser, you can pretty much include anything you want here:
+
+Emojies? 🔥💪😎💯
+
+Cursed text? Y̶̨̥̠̺̗͇̮̯̦̖͖̞̥̰̰̰̠̟̮̘͛͐͐͗̆̉̏͒̃̀̋͊͋̊̈́ő̸̡̡̢̺̺͎̮̥͍͖͉̩̞͉̼́͗͛͗̌̉̕͝ü̴̧̡̧̟̮͈̤͚̙̟͕̻̰̲̖̩̑̍̆̅͝ ̵̡̬̬̥̮͎̫̟̗͙̼̈̓͋̆͂͜ͅç̷͈̺̯̪̬̘̣͙̙͙̜̹̗͍̥͖͇̼͐̒͋̔̉͆̊͗̆͝a̵̢̢̭̘̙̲̻̙̝̦̗̩̎̀͛̊̉́͌̄̄́̓̉̉̊ṅ̶̢̯̼̳̥͇̦͍͛̋͌͆̚ ̵̡̧̛͕̗̗̤̥̟͉̼͎̱͓̥̈́̽̆̈́͑̾̔̐́̒̏̈́͌̏͑͘͠͠b̴̬͈̘̞̭̜͈͑̈͒̑̋͌̇ͅe̷͎̯̮̳̤̣̠̪̱̍͗̋͋̅̊̈́̈́͝ť̶̙͈̜̲̲͙̼̗͓̖̰̭̗̳̓́͒̔͐͊͆̈́̀̒̇ ̷̧̢̡̘̜̝͖̖̬̲̩͓̺̠̮̥̱͚̻̉̈̑̋̓̑͐̾̍̂͌͛̾̃͝y̷͓̫͑̀̂͐̂͗̆͂͝o̷̯̮̯̯̞̳͓̩͚̝̟̭̎̈́̋̿̉͋̏͘̚u̴̗̘̲̠̪̳̘̯̻̘̗̣̫͋̑͒͗̐̓́͑̉͗̈́̎͐̕͝r̶̲̟̫͈̥̩̻̭̳̗͉̰̱͇͎̞͎̗̹̆̕͜ ̵̧̧̨̱̼̖͍͎͍͈̲͍͔̤̞͎̲̣̈́́̿̐̀̉̒̾̈̈́̓̎͂̍͘̚̚͜͝ͅá̶̹͓̫̙̆̈̄̎͝ș̵̢̻̼̮͕̙̘̜̹̮̔̐̃̐͝s̶̡͔͔͕͎͍̳̥̼̞̔̀̈́̒̔͐̓̋̐̋̕͘͝͝
+
+Ascii art?
+
+░░░░░░░░░░░░░░░░░░░░░░█████████
+░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
+░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███
+░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███
+░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██
+░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██
+██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██
+██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░████████████░░░█████████████████
+
+All you need is a file and the type set in `meta.json`. It's not perfect, but it works.
+
+One important thing to note, however, is that anything and everything can be passed with the `HTML` function.
+Please, *please*, PLEASE be a good actor and don't try to steal people's cookies with a fucking Delta Green campaign.
+That's just rude :(.
