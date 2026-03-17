@@ -1,6 +1,6 @@
 # dg-terminal — An Immersive Delta Green Terminal
 
-**SGTerm** is a small browser-based fake terminal designed for use in **Delta Green** tabletop RPG campaigns.
+**dg-terminal** is a small browser-based fake terminal designed for use in **Delta Green** tabletop RPG campaigns.
 It simulates a minimal command-line environment where players can log in as different users and uncover narrative clues through commands.
 
 🔗 **Demo:** https://sgterm-d2826.web.app/
@@ -13,7 +13,7 @@ It simulates a minimal command-line environment where players can log in as diff
 
 ## Overview
 
-SGTerm is a lightweight interactive terminal built with plain **HTML, CSS, and JavaScript**. It allows a Game Master to present in-world information to players through a stylized command-line interface rather than traditional handouts.
+dg-terminal is a lightweight interactive terminal built with plain **HTML, CSS, and JavaScript**. It allows a Game Master to present in-world information to players through a stylized command-line interface rather than traditional handouts.
 
 Players authenticate using fictional accounts and can run commands to reveal:
 
