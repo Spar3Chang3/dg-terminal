@@ -4,16 +4,6 @@
     "password": "password",
     "properties": [
       {
-        "command": "email",
-        "file": "email.txt",
-        "function": "TEXT"
-      },
-      {
-        "command": "embed",
-        "file": "embed.txt",
-        "function": "HTML"
-      },
-      {
         "command": "neofetch",
         "file": "neofetch.txt",
         "function": "TEXT"
@@ -24,9 +14,35 @@
         "function": "IMG"
       },
       {
+        "command": "cat secret.dat",
+        "file": "secret.dat",
+        "function": "TEXT"
+      },
+      {
+        "command": "ls",
+        "file": "ls.txt",
+        "function": "TEXT"
+      },
+      {
         "command": "testme",
         "file": "I-can-name-this-file-anything.txt",
         "function": "TEXT"
+      }
+    ]
+  },
+  {
+    "username": "bonnie",
+    "password": "kitkat",
+    "properties": [
+      {
+        "command": "email",
+        "file": "email.txt",
+        "function": "TEXT"
+      },
+      {
+        "command": "embed",
+        "file": "embed.txt",
+        "function": "HTML"
       }
     ]
   }

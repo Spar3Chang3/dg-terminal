@@ -1,0 +1,2 @@
+📄 secret.dat
+📄 .corrupted-transcript-01-24-16_12:02:46

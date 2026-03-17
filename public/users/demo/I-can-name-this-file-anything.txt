@@ -34,3 +34,5 @@ All you need is a file and the type set in `meta.json`. It's not perfect, but it
 One important thing to note, however, is that anything and everything can be passed with the `HTML` function.
 Please, *please*, PLEASE be a good actor and don't try to steal people's cookies with a fucking Delta Green campaign.
 That's just rude :(.
+
+Images for pfps pulled from `https://this-person-does-not-exist.com`
