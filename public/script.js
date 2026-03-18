@@ -2,6 +2,8 @@ const terminal = document.getElementById("terminal");
 const mobileInput = document.getElementById("mobile-input");
 
 const USER_JSON = "/users/meta.json";
+const DISCLAIMER_TXT = "/LICENSES/THIRD_PARTY_LICENSES.txt";
+const APACHE_LICENSE = "/LICENSES/apache-2.0.txt";
 
 const users = new Map();
 
@@ -15,7 +17,8 @@ let user = {
   // More types can be added here
 };
 
-let neofetch = "";
+let disclaimer = "";
+let apacheLicense = "";
 
 function resetUserState() {
   user = {
@@ -28,6 +31,23 @@ function resetUserState() {
 function syncFromRealInput() {
   currentInput = mobileInput.value;
   renderInputRow(true);
+}
+
+async function fetchLegal() {
+  try {
+    const [disclaimerRes, apacheRes] = await Promise.all([
+      fetch(DISCLAIMER_TXT),
+      fetch(APACHE_LICENSE),
+    ]);
+
+    disclaimer = await disclaimerRes.text();
+    apacheLicense = await apacheRes.text();
+  } catch (err) {
+    console.error(
+      "Could not fetch license files. Check LICENSES directory:",
+      err,
+    );
+  }
 }
 
 async function fetchUser() {
@@ -163,7 +183,7 @@ function commandHook(line) {
   switch (normalized) {
     case "help":
       printLine(
-        `Available commands: help, clear, whoami, logout, ${user.commands.join(", ")}`,
+        `Available commands: help, clear, whoami, logout, ${user.commands.join(", ")}, disclaimer, apache`,
       );
       break;
 
@@ -182,6 +202,14 @@ function commandHook(line) {
     case "logout":
       resetToLogin("Logged out.");
       return;
+
+    case "disclaimer":
+      printLine(disclaimer);
+      break;
+
+    case "apache":
+      printLine(apacheLicense);
+      break;
 
     case "":
       break;

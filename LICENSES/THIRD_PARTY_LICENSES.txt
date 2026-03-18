@@ -1,0 +1,18 @@
+This project includes an icon licensed under the Apache License 2.0.
+
+Original work:
+Name: Terminal - free Icon in PNG and SVG
+Source: https://icon-icons.com/icon/terminal/103094
+Project: Zafiro Apps (via icon-icons.com)
+Author: Zayronxio
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at:
+https://www.apache.org/licenses/LICENSE-2.0
+
+Modifications:
+No changes were made to the icon itself. The file was renamed to "favicon.ico" and "favicon.png".
+
+This notice is provided in accordance with the Apache License 2.0 requirements.

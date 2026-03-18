@@ -99,4 +99,12 @@ There is no direct license, it's not good enough to need one of those. All I ask
 
 ---
 
+## Third-Party Licenses
+
+This project includes third-party assets licensed under Apache 2.0.
+
+See the `/LICENSES/` directory for full license text and attribution.
+
+---
+
 **“The last thing an agent should trust is a terminal that greets them by name.”** - idk bro
