@@ -50,6 +50,24 @@ async function fetchLegal() {
   }
 }
 
+async function fetchMeta() {
+  await fetch(USER_JSON)
+    .then((res) => {
+      return res.json();
+    })
+    .then((userList) => {
+      for (const user of userList) {
+        users.set(user.username, user);
+      }
+    })
+    .catch((err) =>
+      printLine(
+        "Could not get user list. Try refreshing the console",
+        "warning",
+      ),
+    );
+}
+
 async function fetchUser() {
   let userProps = users.get(user.username)?.properties;
   for (const prop of userProps) {
@@ -313,22 +331,9 @@ function handleKeydown(event) {
 
 async function boot() {
   printLine("Shitass Shell v0.6.2", "muted");
-  printLine("Loading users, please wait...", "warning");
-  await fetch(USER_JSON)
-    .then((res) => {
-      return res.json();
-    })
-    .then((userList) => {
-      for (const user of userList) {
-        users.set(user.username, user);
-      }
-    })
-    .catch((err) =>
-      printLine(
-        "Could not get user list. Try refreshing the console",
-        "warning",
-      ),
-    );
+  printLine("Loading licenses and users, please wait...", "warning");
+  await fetchLegal();
+  await fetchMeta();
   printLine("Login required.", "warning");
   printLine("Enter Username Below:");
   renderInputRow(false);
